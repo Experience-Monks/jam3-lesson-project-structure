@@ -1,0 +1,36 @@
+{
+  "name": "jam3-lesson-project-structure",
+  "version": "1.0.0",
+  "description": "This is a lesson on how Jam3 structures projects.",
+  "main": "index.js",
+  "license": "MIT",
+  "author": {
+    "name": "Brendan Neufeld",
+    "email": "brendanjneufeld@gmail.com",
+    "url": "https://github.com/BrenanNeufeld"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "lesson,",
+    "workshop,",
+    "jam3,",
+    "project,",
+    "structure,",
+    "architecture,",
+    "generator,",
+    "big-wheel,",
+    "yeoman"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Jam3/jam3-lesson-project-structure.git"
+  },
+  "homepage": "https://github.com/Jam3/jam3-lesson-project-structure",
+  "bugs": {
+    "url": "https://github.com/Jam3/jam3-lesson-project-structure/issues"
+  }
+}
