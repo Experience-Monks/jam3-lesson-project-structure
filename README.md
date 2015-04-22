@@ -2,7 +2,7 @@
 
 
 This is a lesson on how Jam3 structures projects. Maybe a note about generator-jam3.
-
+In an effort to reduce project set up times and improve consistency, Jam3 is presently in the process of standardizing its project structure and formalizing it into a yeoman generator. If you would like a more indepth look at the folder structure and file contents install the generator and you will be able explore the contents of a standard Jam3 project.
 
 
 <a name="readme"></a>
