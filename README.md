@@ -7,7 +7,6 @@ This is a lesson on how Jam3 structures projects. Maybe a note about generator-j
 
 <a name="readme"></a>
 ##Project Root
----
 
 ```
 project
@@ -46,7 +45,6 @@ lorem ipsum
 
 <a name="lib"></a>
 ##lib
----
 
 lorem ipsum
 
@@ -111,20 +109,20 @@ lorem ipsum
 
 <a name="app"></a>
 ##app
----
+
 lorem ipsum
 
 
 
 <a name="node_modules"></a>
 ##node_modules
----
+
 lorem ipsum
 
 
 <a name="raw-assets"></a>
 ##raw-assets
----
+
 lorem ipsum
 
 * `fonts`
@@ -138,20 +136,20 @@ lorem ipsum
 
 <a name="tasks"></a>
 ##tasks
----
+
 lorem ipsum
 
 
 
 <a name="test"></a>
 ##test
----
+
 lorem ipsum
 
 
 <a name="fullprojecttree"></a>
 ##Full Project Tree
----
+
 ```
 project
     ├── Gruntfile.js
