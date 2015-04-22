@@ -102,29 +102,24 @@ All the logic, styles, and templates for a sepcific section. the template file w
 
 <a name="ui"></a>
 ###lib/ui
-lorem ipsum
+Style and logic files for your reusable UI elements, organized by sections.
 
 * `Landing/`
-
-
 
 <a name="app"></a>
 ##app
 
-lorem ipsum
-
-
+The app folder contains any of your static website elements, such as your HTML/PHP files.
 
 <a name="node_modules"></a>
 ##node_modules
 
-lorem ipsum
-
+This is where npm installs it's packages, you shouldn't have to worry about this folder.
 
 <a name="raw-assets"></a>
 ##raw-assets
 
-lorem ipsum
+This contains all of your binary assets which will get optimized and moved to the .tmp folder via the grunt tasks. This folder will most often be populated via BTSync.
 
 * `fonts`
 * `images`
@@ -133,20 +128,15 @@ lorem ipsum
 * `tp`
 * `videos`
 
-
-
 <a name="tasks"></a>
 ##tasks
 
-lorem ipsum
-
-
+Any custom grunt tasks that need to be created to build the project will go in this folder. It is important to check to see if a grunt task has already been created on npm to prevent you from reinventing the wheel.
 
 <a name="test"></a>
 ##test
 
-lorem ipsum
-
+Unit tests for the application. This applies more to making modules than for a complete web app.
 
 <a name="fullprojecttree"></a>
 ##Full Project Tree
