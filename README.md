@@ -117,7 +117,7 @@ The app folder contains any of your static website elements, such as your HTML/P
 <a name="node_modules"></a>
 ##node_modules
 
-This is where npm installs it's packages, you shouldn't have to worry about this folder.
+This is where npm installs it's packages and its contents are managed by npm. You shouldn't have to worry about this folder.
 
 <a name="raw-assets"></a>
 ##raw-assets
