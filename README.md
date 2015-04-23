@@ -5,6 +5,8 @@ This is a lesson on how Jam3 structures projects. In an effort to reduce project
 
 If you would like to take a look at the Jam3 Generator and see how to use it, please visit the github repo: https://github.com/Jam3/generator-jam3
 
+[Project Tools Reference Guide](https://github.com/Jam3/tech-we-use/blob/master/toolsProject.md)
+
 
 <a name="readme"></a>
 ##Project Root
@@ -31,7 +33,9 @@ The `README.md` file is the first thing you should read or write when starting o
 ####package.json
 [npm](https://www.npmjs.com/) is a package manager for javascript. `package.json` contains a list of all your npm modules being used in the project as well as info about the project. You will most likely not have to edit this manually after it is created with the genetator. Ensure you are using `--save` when installing a new module, or `--save-dev` when installing a module that is not used in the final javascript bundle. 
 
-For a more indepth explaination see: [Specifics of npm's package.json handling](https://docs.npmjs.com/files/package.json")
+[Modules commonly used by Jam3](https://github.com/Jam3/tech-we-use/blob/master/modules.md)
+
+[Specifics of npm's package.json handling](https://docs.npmjs.com/files/package.json")
 
 <a name="bowerjson"></a>
 ####bower.json
