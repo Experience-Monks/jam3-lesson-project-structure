@@ -29,15 +29,19 @@ The `README.md` file is the first thing you should read or write when starting o
 
 <a name="packagejson"></a>
 ####package.json
-This contains a list of all your npm modules being used in the project as well as info about project. You will most likely not have to edit this manually after it is created with the genetator. Ensure you are using --save when installing a new module, or --save-dev when installing a module that is not used in the final javascript bundle.
+[npm](https://www.npmjs.com/) is a package manager for javascript. `package.json` contains a list of all your npm modules being used in the project as well as info about the project. You will most likely not have to edit this manually after it is created with the genetator. Ensure you are using `--save` when installing a new module, or `--save-dev` when installing a module that is not used in the final javascript bundle. 
+
+For a more indepth explaination see: [Specifics of npm's package.json handling](https://docs.npmjs.com/files/package.json")
 
 <a name="bowerjson"></a>
 ####bower.json
-This file contains all the packages that are brought in through bower. This is not a mandatory file in all projects, it is only required if the developers choose to use it.
+[Bower](http://bower.io/) is a front end package manager and is typically used for packages that are larger dependencies and/or not supported by npm. `bower.json` contains all the packages that are brought in through bower. This is not a mandatory file in all projects, it is only required if the developers choose to use it.
+
+
 
 <a name="gruntfile"></a>
 ####Gruntfile.js
-This file contains all tasks used to build the project. The generator creates many of the tasks you will need, but new tasks may need to be added.
+[Grunt](http://gruntjs.com/) is a JavaScript task runner. `Gruntfile.js` contains all tasks used to build the project. The generator creates many of the tasks you will need, but new tasks may need to be added. Typically you will `cd` to the project directory and run a grunt task that watches and outputs the files necessary for development with your local webserver. `Gruntfile.js` contains these task definitions/configurations.
 
 <a name="gruntfileex"></a>
 ####index.js
@@ -46,7 +50,7 @@ The entry point for your application, there should be very little logic in this 
 <a name="lib"></a>
 ##lib
 
-Your application logic goes into the lib folder. The structure of the folder is detailed below.
+Your application logic goes into the lib folder. It contains all of your JavaScript source files. Most of your work will be done here. Typically you will have an automated grunt task that watches this folder for changes and outputs a concatenated `bundle.js` file to the app folder for testing with a local web server. The structure of the folder is detailed below.
 
 ```
 project
@@ -108,9 +112,8 @@ Style and logic files for your reusable UI elements, organized by sections.
 
 <a name="app"></a>
 ##app
-
-The app folder contains any of your static website elements, such as your HTML/PHP files.
-
+        
+The app folder contains any of your static website elements, such as your HTML/PHP files. This is the root folder for you local web server. You shouldn't need to edit any of the JavaScript or css files in this directory as they are bundled and output from the lib folder (although, there are some exceptions).
 <a name="node_modules"></a>
 ##node_modules
 
