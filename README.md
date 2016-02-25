@@ -1,3 +1,7 @@
+##### [jam3-lesson](https://github.com/Jam3/jam3-lesson) » project-structure
+
+---
+
 # jam3-lesson-project-structure
 
 
